@@ -18,7 +18,7 @@ describe('Header Component', () => {
 
   it('Should render without errors', () => {
     // const component = setUp()
-    // console.log(component.debug())
+    console.log(component.debug())
     // const wrapper = component.find(`[data-test='headerComponent']`)
     const wrapper = findByTestAttr(component, 'headerComponent')
     expect(wrapper.length).toBe(1)
@@ -27,7 +27,7 @@ describe('Header Component', () => {
 //below we see if the logo gets rendered
   it('Should render a logo', () => {
     // const component = setUp()
-    // console.log(component.debug())
+    console.log(component.debug())
     // const logo = component.find(`[data-test='logoIMG']`)
     const logo = findByTestAttr(component, 'logoIMG')
     expect(logo.length).toBe(1)
